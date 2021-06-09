@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articels",
+  "info": {
+    "name": "Articel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "auth": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext"
+    }
+  }
+}
